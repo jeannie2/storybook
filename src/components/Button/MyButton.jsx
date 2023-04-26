@@ -1,12 +1,15 @@
 import PropTypes from "prop-types"
 
-function MyButton({ label, backgroundColor = "#6B4EFF", color = "white", borderRadius="48px", border="none"}) {
+function MyButton({ label, background, boxShadow}) {
   const style = {
-    backgroundColor,
-    padding: "0.5rem 1rem",
-    color,
-    borderRadius,
-    border
+    background,
+    boxShadow,
+    color: "black",
+    border: "1px solid black",
+    fontSize: "1rem",
+    padding: "0.9rem 0.8rem",
+    borderRadius: "10px",
+    textAlign: "center"
   }
   return (
     <button style={style}>
@@ -17,8 +20,6 @@ function MyButton({ label, backgroundColor = "#6B4EFF", color = "white", borderR
 MyButton.propTypes = {
   label: PropTypes.string,
   backgroundColor: PropTypes.string,
-  color: PropTypes.string,
-  border:PropTypes.string,
-  borderRadius: PropTypes.string,
+  boxShadow: PropTypes.string,
 }
 export default MyButton;

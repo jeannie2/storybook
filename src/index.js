@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+//import MyButton from '../stories/mybutton.stories.js';
+//import reportWebVitals from './reportWebVitals';
+//import MyButton from './components/Button/MyButton'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
