@@ -1,6 +1,6 @@
 # storybook
 
-Practice using [storybook](https://storybook.js.org/), created series of buttons.
+Practice using [storybook](https://storybook.js.org/) by creating series of buttons.
 
 # How to view
 
